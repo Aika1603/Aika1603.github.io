@@ -1,0 +1,147 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color:rgba(0, 0, 0, 1); 
+}
+
+#home {
+    height:100vh;
+    background: linear-gradient(rgba(52, 58, 64, 1), rgba(0, 0, 0, 1)); 
+}
+.box-shadow {
+    -webkit-box-shadow: 0px 10px 30px -22px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 10px 30px -22px rgba(0,0,0,0.75);
+    box-shadow: 0px 10px 30px -22px rgba(0,0,0,0.75);
+}
+.banner-title {
+    font-size:60px;
+    color:#fff;
+}
+
+.font-primary {
+    color: rgba(254, 92, 5, 0.8);
+}
+
+.banner-subtitle {
+    font-size:30px;
+    color:#fff;
+    font-weight: lighter;
+}
+
+.banner-img {
+    width:100%;
+    margin-top:-130px;
+}
+
+.btn-round{
+    border-radius: 50%;
+}
+ul.sosmed {
+    margin-left:-50px;
+}
+ul.sosmed li {
+    display: inline;
+    margin-left:10px;
+}
+
+/* section */
+#home{
+    padding-top:300px;
+}
+#services{
+    padding-top:80px;
+    padding-bottom:80px;
+}
+#about{
+    padding-top:80px;
+    padding-bottom:80px;
+    background: linear-gradient( rgba(0, 0, 0, 1), rgba(52, 58, 64, 1)); 
+}
+#skills{
+    padding-top:80px;
+    padding-bottom:80px;
+    background: linear-gradient(rgba(52, 58, 64, 1), rgba(0, 0, 0, 1)); 
+}
+#contact{
+    padding-top:80px;
+    padding-bottom:80px;
+}
+
+.progress {
+    background-color: rgb(0,0,0,0);
+    height: 20px;
+}
+
+/* text font */
+.title {
+    font-size:50px;
+    color:#fff;
+}
+
+.subtitle {
+    font-size:20px;
+    color:#fff;
+    font-weight: lighter;
+}
+
+
+.text-header {
+    font-size:25px;
+    color:#fff;
+    font-weight: medium;
+}
+
+.text {
+    font-size:20px;
+    color:#fff;
+    font-weight: lighter;
+}
+
+.card {
+    padding:10px 10px;
+    transition: transform 0.2s;
+}
+
+.card:hover{
+    background-color: #fff;
+    transform: scale(1.1);
+}
+
+.footer {
+    padding:50px 20px;
+    text-align: center;
+}
+
+/* animation */
+.animation-fast {
+    animation-duration: 0.5s;
+}
+.animation-medium {
+    animation-duration: 1s;
+}
+.animation-slow {
+    animation-duration: 1.5s;
+}
+.animation-delay-fast {
+    animation-delay: 0.5s;
+}
+.animation-delay-medium {
+    animation-delay: 1s;
+}
+.animation-delay-slow {
+    animation-delay: 1.5s;
+}
+
+/* responsive view */
+@media (max-width: 991px) {
+    .banner-img {
+        display: none;
+    }
+
+    section, #home{
+        padding-top:250px;
+    }
+
+}
